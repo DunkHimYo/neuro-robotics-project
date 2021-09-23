@@ -9,18 +9,28 @@ def preprocessing(frame,sfreq):
     data = mne.filter.filter_data(data=data, l_freq=4, h_freq=50, sfreq=128,verbose=False)
     x = data.T
     y, w, _ = star.star(x,verbose=False)
-    y=y.T
     eeg_data = []
+    
+    raw = y.T
+    asr = ASR(method='euclid')
 
-    for j in range(0, (y.shape[1])-(256-128), 128):
-
-        psd, freqs = psd_array_multitaper(y[:, j: j + 256], 128, adaptive=True,
+    train_idx = np.arange(0 * sfreq, 10 * sfreq, dtype=int)
+    _, sample_mask = asr.fit(raw[:, train_idx])
+    X = sliding_window(raw, window=int(sfreq), step=int(sfreq))
+    Y = np.zeros_like(X)
+    
+    for i in range(X.shape[1]):
+        Y[:, i, :] = asr.transform(X[:, i, :])
+        psd, freqs = psd_array_multitaper(Y[:,i,:], 128, adaptive=True,
                                           normalization='full', verbose=0)
+        
         bp=bandpower_from_psd(psd, freqs, ch_names=list(frame.index),
                                 relative=False, bands=[(4, 8, 'Theta'), (8, 12, 'Alpha'),
                                                        (12, 15, 'BetaL'), (16, 20, 'BetaM'),
                                                        (21, 30, 'BetaH'),
                                                        (30, 64, 'Gamma')])
-        #print(bp.loc[:, 'Theta':'TotalAbsPow'])
+
+       
         eeg_data.append(bp.loc[:, 'Theta':'TotalAbsPow'])
+        
     return eeg_data
