@@ -1,7 +1,7 @@
 import time
 import yaml
 import video
-import nao_train
+import nao_movement
 import websocket
 import json
 from multiprocessing import Process, Manager, freeze_support
@@ -51,7 +51,7 @@ def server(ws):
             elif message['method'] == 'moveOn':
 
                 ws.send(json.dumps({'method': 'moveOn','attribute':'clear'}))
-                p2 = Process(target=nao_train.start_nao,args=(rcv,))
+                p2 = Process(target=nao_movement.start_nao, args=(rcv,))
                 p2.start()
 
             elif message['method']=='moveOff':
@@ -60,7 +60,7 @@ def server(ws):
 
                 if p2 is not None:
                     if p2.is_alive():
-                        nao_train.stop_nao(rcv)
+                        nao_movement.stop_nao(rcv)
                         if p2 is not None:
                             print("finish")
                             p2.terminate()
