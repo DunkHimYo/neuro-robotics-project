@@ -161,8 +161,6 @@ def start_video():
     def ani(i):
         T = top(videoDevice,captureDevice, True)
 
-        while T is None:
-            pass
         return T,
 
     fig = plt.figure()
