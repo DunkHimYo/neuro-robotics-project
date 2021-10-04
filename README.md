@@ -28,14 +28,14 @@
 |![waiting](https://github.com/DunkHimYo/neuro-robotics-project/blob/main/project_video/data_collection.jpg)|
 
 ## 객체 인식 방법
-- Yolo 모델을 적용하여 실시간으로 이미지를 처리해 객체 인식 및 좌표 추출
+- CoCo데이터셋으로 학습시킨 Yolo 모델을 적용하여 실시간으로 이미지를 처리해 객체 인식 및 좌표 추출
 
 | 방법 |
 | ------ |
 |![waiting](https://github.com/DunkHimYo/neuro-robotics-project/blob/main/project_video/yolo_model.jpg)|
 
 ## 뇌파 학습 방법
-
+- Conv-Lstm기반으로 neutral, left, right, front 총 4개의 label을 각각 255개를 수집하여 학습
 | 방법 | 결과 |
 | ------ | ------ |
 |![waiting](https://github.com/DunkHimYo/neuro-robotics-project/blob/main/project_video/model.jpg)|![waiting](https://github.com/DunkHimYo/neuro-robotics-project/blob/main/project_video/learning.jpg)|
