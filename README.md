@@ -10,6 +10,10 @@
 
 | 장비 소개 |
 | ------ |
-[![waiting](https://github.com/DunkHimYo/neuro-robotics-project/blob/main/project_video/equipment.jpg)
+![waiting](https://github.com/DunkHimYo/neuro-robotics-project/blob/main/project_video/equipment.jpg)
 
+
+| 프로그램 소개 |
+| ------ |
+![waiting](https://github.com/DunkHimYo/neuro-robotics-project/blob/main/project_video/gui.jpg)
 
