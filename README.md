@@ -36,6 +36,7 @@
 
 ## 뇌파 학습 방법
 - Conv-Lstm기반으로 neutral, left, right, front 총 4개의 label을 각각 255개를 수집하여 학습
+
 | 방법 | 결과 |
 | ------ | ------ |
 |![waiting](https://github.com/DunkHimYo/neuro-robotics-project/blob/main/project_video/model.jpg)|![waiting](https://github.com/DunkHimYo/neuro-robotics-project/blob/main/project_video/learning.jpg)|
