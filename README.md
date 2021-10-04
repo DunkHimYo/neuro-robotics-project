@@ -28,6 +28,7 @@
 |![waiting](https://github.com/DunkHimYo/neuro-robotics-project/blob/main/project_video/data_collection.jpg)|
 
 ## 객체 인식 방법
+- Yolo 모델을 적용하여 실시간으로 이미지를 처리해 객체 인식 및 좌표 추출
 
 | 방법 |
 | ------ |
