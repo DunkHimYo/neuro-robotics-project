@@ -5,7 +5,7 @@ import math
 import sys
 import os
 from multiprocessing import Process, Manager, freeze_support
-import controller_api_server
+import background_process
 import time
 import atexit
 import datetime
@@ -383,8 +383,8 @@ if __name__ == '__main__':
     rcv['move_on'] =False
     rcv['camera']=Non
 
-    p = Process(target=controller_api_server.nao_controller, args=(rcv,))
-    p2 = Process(target=controller_api_server.emotiv_controller, args=(rcv,))
+    p = Process(target=background_process.nao_controller, args=(rcv,))
+    p2 = Process(target=background_process.emotiv_controller, args=(rcv,))
     p.start()
     p2.start()
     atexit.register(program_exit, [p,p2])
