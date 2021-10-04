@@ -37,6 +37,7 @@
 
 ## 뇌파 학습 방법
 - Conv-Lstm기반으로 neutral, left, right, front 총 4개의 label을 각각 255개를 수집하여 학습
+- 오버피팅을 방지하기 위해 DropOut 적용 및 일반화 성능을 높이기 위해 L1_L2 regularization 적용
 
 | 방법 | 결과 |
 | ------ | ------ |
