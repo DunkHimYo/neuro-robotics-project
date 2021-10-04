@@ -25,7 +25,7 @@ class frame_calculator:
                 data=data_values,
                 columns=self.columns[self.sub[0]])
         else:
-            data_sample_frames = pd.DataFrame(
+            data_sample_frames = pd.DataFram(
                 data=data_values[np.newaxis],
                 columns=self.columns[self.sub[0]])
 
