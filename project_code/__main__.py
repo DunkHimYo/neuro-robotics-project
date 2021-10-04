@@ -381,7 +381,7 @@ if __name__ == '__main__':
     rcv['marker'] = 0
     rcv['emotiv_connect'] = False
     rcv['move_on'] =False
-    rcv['camera']=None
+    rcv['camera']=Non
 
     p = Process(target=controller_api_server.nao_controller, args=(rcv,))
     p2 = Process(target=controller_api_server.emotiv_controller, args=(rcv,))
