@@ -36,10 +36,6 @@
 
 ## 뇌파 학습 방법
 
-| 방법 |
-| ------ |
-|![waiting](https://github.com/DunkHimYo/neuro-robotics-project/blob/main/project_video/model.jpg)|
-
-| 결과 |
-| ------ |
-|![waiting](https://github.com/DunkHimYo/neuro-robotics-project/blob/main/project_video/learning.jpg)|
+| 방법 | 결과 |
+| ------ | ------ |
+|![waiting](https://github.com/DunkHimYo/neuro-robotics-project/blob/main/project_video/model.jpg)|![waiting](https://github.com/DunkHimYo/neuro-robotics-project/blob/main/project_video/learning.jpg)|
