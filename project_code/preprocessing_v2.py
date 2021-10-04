@@ -19,6 +19,6 @@ def preprocessing(frame,sfreq):
     Y = np.zeros_like(X)
     for i in range(X.shape[1]):
         Y[:, i, :] = asr.transform(X[:, i, :])
-    Y=Y.transpose(2,1,0)
+    Y=Y.transpose(1,2,0)
 
     return Y
