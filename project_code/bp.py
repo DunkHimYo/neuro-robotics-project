@@ -136,6 +136,6 @@ def bandpower(data, sf=None, ch_names=None, hypno=None, include=(2, 3),
                                       **kwargs_welch)
             bp_stage = bandpower_from_psd(psd, freqs, ch_names, bands=bands,
                                           relative=relative)
-            bp_stage['Stage'] = stag
+            bp_stage['Stage'] = stage
             df_bp = df_bp.append(bp_stage)
         return df_bp.set_index(['Stage', 'Chan'])
