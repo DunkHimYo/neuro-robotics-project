@@ -33,4 +33,4 @@ def preprocessing(frame,sfreq):
        
         eeg_data.append(bp.loc[:, 'Theta':'TotalAbsPow'])
         
-    return eeg_data
+    return eeg_dat
