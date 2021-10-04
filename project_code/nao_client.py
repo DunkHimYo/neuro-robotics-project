@@ -24,7 +24,7 @@ def server(ws):
     rcv['send']=json.dumps({'method':'','attribute':''})
 
     p = None
-    p2 = None
+    p2 = Non
 
     while True:
 
