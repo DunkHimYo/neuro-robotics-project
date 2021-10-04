@@ -17,3 +17,11 @@
 | ------ |
 ![waiting](https://github.com/DunkHimYo/neuro-robotics-project/blob/main/project_video/gui.png)
 
+
+## 학습 방법
+
+| 장비 소개 |
+| ------ |
+![waiting](https://github.com/DunkHimYo/neuro-robotics-project/blob/main/project_video/learning_method.jpg)
+
+![waiting](https://github.com/DunkHimYo/neuro-robotics-project/blob/main/project_video/data_collection.jpg)
