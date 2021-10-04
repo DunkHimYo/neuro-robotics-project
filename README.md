@@ -10,4 +10,4 @@
 
 | 걸린 시간 정규분포표 |
 | ------ |
-|![waiting](https://github.com/DunkHimYo/adhd_project/blob/main/readMeImg/waiting%20time.jpg)|
+|![waiting](https://github.com/DunkHimYo/neuro-robotics-project/blob/main/project_video/project_video.mp4)|
