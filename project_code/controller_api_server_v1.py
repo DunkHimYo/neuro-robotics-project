@@ -173,5 +173,5 @@ def nao_controller(message):
                 event_loop.run_until_complete(websoc_svr)
                 event_loop.run_forever()
 
-        before_message=message_method
+        before_message=message_metho
         time.sleep(0.1)
