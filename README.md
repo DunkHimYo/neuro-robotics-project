@@ -13,7 +13,7 @@
 ![waiting](https://github.com/DunkHimYo/neuro-robotics-project/blob/main/project_video/equipment.jpg)
 
 ## 프로그램 소개
-- 파이썬의 특징인 GIL의 효과로 멀티스레딩을 막아 기본적으로 Concurrent 프로그래밍을 지원하여 해당 프로젝트의 경우 GUI화면 실행, 실시간 영상 처리 및 EEG 처리 등 백그라운드로 처리해야 하는 특징이 있기 때문에 MultiProcessing으로 Parallel 프로그래밍 적용
+- 파이썬의 특징인 GIL의 효과로 멀티스레딩을 막아 기본적으로 Concurrent 프로그래밍을 지원하는 문제점이 있어 해당 프로젝트의 경우 GUI화면 실행, 실시간 영상 처리 및 EEG 처리 등 백그라운드로 처리해야 하는 특징이 있기 때문에 MultiProcessing으로 Parallel 프로그래밍 적용
 
 | 프로그램 소개 |
 | ------ |
