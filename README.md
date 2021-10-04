@@ -10,4 +10,4 @@
 
 | 걸린 시간 정규분포표 |
 | ------ |
-|![waiting](https://github.com/DunkHimYo/neuro-robotics-project/blob/main/project_video/project_video.mp4)|
+|![waiting](https://www.youtube.com/watch?v=Ri9MkI7lXek|
