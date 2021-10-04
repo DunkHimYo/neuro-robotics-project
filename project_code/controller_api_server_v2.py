@@ -192,4 +192,3 @@ def nao_controller(message):
 
         before_message=message_method
         time.sleep(0.1)
-
