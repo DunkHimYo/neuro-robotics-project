@@ -152,7 +152,7 @@ def start_nao(message):
     AL_kTopCamera = 0
     AL_kBottomCamera = 1
     AL_kDepthCamera = 2
-    AL_kQVGA = 1            # 320x240
+    AL_kQVGA = 1            
     AL_kBGRColorSpace = 11
     name='a'
     captureDevice = videoDevice.subscribeCamera(
