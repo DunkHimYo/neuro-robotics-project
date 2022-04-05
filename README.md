@@ -1,6 +1,6 @@
 | 영상 시청을 원할시 클릭 |
 | ------ |
-|[![waiting](https://github.com/DunkHimYo/neuro-robotics-project/blob/main/project_video/prject_img.png)](https://www.youtube.com/watch?v=Ri9MkI7lXek)|
+|[![waiting](https://github.com/DunkHimYo/neuro-robotics-project/blob/main/project_video/prject_img.png)](https://youtu.be/SbXY6q6RwJo)|
 
 # BCI 기반 뉴로 로보틱스 시스템
 
