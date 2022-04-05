@@ -13,8 +13,8 @@
 ![waiting](https://github.com/DunkHimYo/neuro-robotics-project/blob/main/project_video/equipment.jpg)
 
 ## 프로그램 소개
-- GUI화면 실행, 실시간 영상 처리 및 EEG 처리 등 백그라운드로 처리해야 하는 작업이 많이 있기 때문에 Parallel 프로그래밍 적용
-- Nao의 경우 Python 2.7을 지원해 SubProcess 방법으로 따로 제작하여 GUI프로그램과 Local API 형식으로 통신하여 연동
+- 사용자에게 인터페이스 할 수 있는 GUI화면 파트와 실시간 영상 처리 파트, 실시간 EEG를 이용한 모션 처리 파트로 실기간을 요하는 작업이 많이 있기 때문에 Parallel 프로그래밍 적용
+- Nao제어의 경우 Python 2.7을 지원해 SubProcess 방법으로 따로 제작하여 GUI프로그램과 Local API 형식으로 통신하여 연동
 
 | 프로그램 소개 |
 | ------ |
